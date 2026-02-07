@@ -1,0 +1,81 @@
+import { StyleSheet, Platform, StatusBar } from "react-native";
+
+export const instructionStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
+    marginHorizontal: 1,
+    marginBottom: 0,
+  },
+  bgImage: {
+    flex: 1,
+    height: "100%",
+    width: "100%",
+    justifyContent: "flex-start",
+    alignItems: "center",
+  },
+  blurView: {
+    height: "100%",
+    width: "100%",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#ffffff",
+    opacity: 0.3,
+    position: "absolute",
+  },
+  viewTitle: {
+    marginTop: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    // backgroundColor: "green",
+  },
+  textTitle: {
+    fontFamily: "Air-travelers",
+    fontSize: 35,
+    lineHeight: 30,
+    marginTop: 20,
+    textAlign: "center",
+    marginRight: 20,
+    color: "#2890f8",
+  },
+  viewTitle2: {
+    marginTop: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    marginHorizontal: 15,
+  },
+  textTitle2: {
+    fontSize: 35,
+    fontFamily: "Born-land",
+    textAlign: "center",
+    color: "#003366",
+  },
+  viewSteps: {
+    marginTop: 10,
+    marginHorizontal: 5,
+    // backgroundColor: "white",
+    // borderRadius: 20,
+  },
+  textStepsNumber: {
+    fontSize: 22,
+    fontWeight: "bold",
+    // textDecorationLine: "underline",
+    fontStyle: "italic",
+    // marginLeft: 10,
+  },
+  textStepsDescription: {
+    fontSize: 18,
+    marginVertical: 10,
+    marginLeft: 20,
+    fontFamily: "Caprasimo-Regular",
+  },
+  viewSingleStep: {
+    marginHorizontal: 5,
+    marginVertical: 10,
+    // backgroundColor: "#d0cfcf",
+    borderRadius: 10,
+  },
+});
