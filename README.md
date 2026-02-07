@@ -54,10 +54,7 @@ Android Studio or Xcode (for emulator/simulator)
 
 Installation
 # Clone the repository
-git clone https://github.com/your-username/fitness-quest.git
-
-# Navigate to the project directory
-cd fitness-quest
+git clone https://github.com/HumruthaBaskaran/Fitness-Quest.git
 
 # Install dependencies
 npm install
