@@ -52,19 +52,6 @@ React Native development environment set up
 
 Android Studio or Xcode (for emulator/simulator)
 
-Installation
-# Clone the repository
-git clone https://github.com/HumruthaBaskaran/Fitness_Quest.git
-# Install dependencies
-npm install
-
-Run the App
-# For Android
-npx react-native run-android
-
-# For iOS
-npx react-native run-ios
-
 
 ![Home1](https://github.com/user-attachments/assets/1254e63a-173a-48a7-8769-9c16825945f3) ![Home2](https://github.com/user-attachments/assets/831dc458-fe45-4beb-a60b-189f550bd765) ![Type](https://github.com/user-attachments/assets/4d736789-d53d-43bd-8732-1d5c6157c473) ![BodyPart](https://github.com/user-attachments/assets/89462171-cf3d-4ba0-88f6-d891e1305085) ![Equipment](https://github.com/user-attachments/assets/3181552a-6b99-4668-b4e6-8c538e74a178)
 
